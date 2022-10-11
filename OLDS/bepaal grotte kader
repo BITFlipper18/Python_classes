@@ -1,0 +1,56 @@
+import turtle as turtle
+from utils.usefull_functions import teken_huis
+
+
+
+# DRAW IN A 3 BY 3 GRID SMALL HOUSES
+# coordinaten = [(0,0), (100, 0), (200, 0), (0,100), (100, 100), (200, 100), (0,200), (100, 200), (200, 200)]
+# turtle.pen(fillcolor="black", pencolor="red", pensize=10)
+# for i in range(len(coordinaten)):
+#     turtle.setpos(coordinaten[i])
+#     turtle.pendown()
+#     teken_huis(50)
+#     turtle.penup()
+    
+
+# KEEP DRAWING BIG HOUSES
+# coordinaten = [(0,0), (100, 0), (200, 0)]
+# turtle.setpos(coordinaten[0])
+# turtle.pendown()
+# teken_huis(grootte_huis)
+# turtle.penup()
+# turtle.setpos(coordinaten[1])
+# turtle.pendown()
+# grootte_huis = grootte_huis +20
+# teken_huis(grootte_huis)
+# turtle.penup()
+# turtle.setpos(coordinaten[2])
+# turtle.pendown()
+# grootte_huis = grootte_huis +20
+# teken_huis(grootte_huis)
+# turtle.penup()
+
+# DRAW IN A 3 BY 3 GRID SMALL HOUSES
+# coordinaten = [(0,0), (100, 0), (200, 0), (0,100), (100, 100), (200, 100), (0,200), (100, 200), (200, 200)]
+# turtle.pen(fillcolor="black", pencolor="red", pensize=10)
+# for i in range(len(coordinaten)):
+#     turtle.setpos(coordinaten[i])
+#     turtle.pendown()
+#     teken_huis(50)
+#     turtle.penup()
+
+#grootte venster: 350s    
+turtle.setpos([350,0])
+turtle.pendown()
+turtle.setpos([0,350])
+turtle.pendown()
+turtle.setpos([-350,0])
+turtle.pendown()
+turtle.setpos([0,-350])
+turtle.pendown()
+turtle.setpos([350,0])
+
+
+
+turtle.mainloop()
+

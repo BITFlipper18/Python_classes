@@ -1,0 +1,20 @@
+import turtle as turtle
+from utils import usefull_functions
+
+class Point:
+    '''
+    Dit is een punt in een 2D ruimte'''
+    
+    def __init__(self, x=0, y=0):
+        self.x = x
+        self.y = y
+
+# geeft info over object
+def __repr__(self):
+    return f"point ({self.x}, {self.y})"
+
+# gebruikt door de print functie -- user friendly
+def __str__(self):
+    return f"Point ({self.x}, {self.y})"
+
+print(__str__)
